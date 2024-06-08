@@ -437,21 +437,19 @@ h3,
 }
 
 .grid-sociais {
-  display: inline-flex;
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
   align-items: center;
   justify-content: space-between;
-  margin: 40px auto;
-  padding: 50px;
-  width: 100%;
+  margin: 30px auto;
+  padding: 15px;
+  width: 90%;
   background: white;
 }
 
 .grid-sociais h3 {
   font-size: 20px;
-}
-
-.grid-sociais i {
-  padding: 10px;
 }
 
 .fa-brands {
@@ -465,7 +463,6 @@ h3,
   position: relative;
   animation: flutuar 2s ease-in-out infinite alternate;
 }
-
 
 @keyframes flutuar {
   0% {
@@ -685,8 +682,22 @@ h3,
     top: 15px;
   }
 
+  #inicio h1 {
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  #produtos h1 {
+    font-size: 30px;
+
+  }
+
   #menu {
     background: black;
+  }
+
+  .text-footer h1 {
+    font-size: 25px;
   }
 
   .form-contato button {
@@ -719,8 +730,20 @@ h3,
   }
 
   .grid-sociais {
+    display: block;
     background-color: white;
     margin: 0 auto;
+
+  }
+
+  .grid-sociais .contato-whatsapp {
+    float: right;
+    padding-bottom: 15px;
+
+  }
+
+  .grid-sociais .bi {
+    padding: 10px;
 
   }
 
