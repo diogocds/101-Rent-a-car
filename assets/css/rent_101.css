@@ -457,6 +457,18 @@ h3,
   font-size: 22px;
 }
 
+.grid-sociais .bi {
+  padding: 10px;
+}
+
+.map-box {
+  padding-top: 18px;
+}
+
+.map-box p {
+  font-size: 15px;
+}
+
 .bi-whatsapp {
   font-size: 40px;
   color: green;
@@ -655,6 +667,7 @@ h3,
   width: 100%;
 }
 
+
 @media only screen and (max-width: 1024px) {
 
   * {
@@ -742,11 +755,6 @@ h3,
 
   }
 
-  .grid-sociais .bi {
-    padding: 10px;
-
-  }
-
   .grid-parceiros {
     display: inline-block;
     width: 100%;
@@ -760,14 +768,6 @@ h3,
 
   .section {
     padding-top: 150px;
-  }
-
-  .form-pg h3 {
-    margin: 0 auto;
-    height: 100%;
-    text-align: center;
-    justify-self: center;
-    font-size: 20px;
   }
 
   .form-pg {
@@ -790,14 +790,6 @@ h3,
   .menu-logo {
     display: flex;
     padding-bottom: 10px;
-  }
-
-  .lg {
-    display: none;
-  }
-
-  .e-mail {
-    display: none;
   }
 
   .gallery-img img {
@@ -836,22 +828,10 @@ h3,
 
   }
 
-  h1 {
-    margin-left: 10px;
-
-  }
 
   h3,
   h2 {
-    margin: 30px;
+    margin: 10px;
   }
 
-  footer {
-    width: 100%;
-    height: 100%;
-  }
-
-  header {
-    width: 100%;
-  }
 }
